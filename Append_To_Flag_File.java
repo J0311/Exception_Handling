@@ -1,6 +1,5 @@
-// Appending text to a file is similar to writing text; the only difference  
-// is that the second argument of the FileWriter constructor is true, 
-// instead of false.
+// Appending text to a file is similar to writing text; the only difference is that
+// the second argument of the FileWriter constructor is true, instead of false.
 	
 import java.io.*;
 import java.util.*;
