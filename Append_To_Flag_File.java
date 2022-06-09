@@ -4,15 +4,15 @@
 import java.io.*;
 import java.util.*;
 	 
-	  public class Append_To_Flag_File {
+	public class Append_To_Flag_File {
 		  
-		  static final int PIXELS = 10;
+		static final int PIXELS = 10;
 		  
-		 public static void main(String[] args) {
+		public static void main(String[] args) {
 			
-			 int lines = 0;
-			 Scanner scan = new Scanner(System.in);
-			 boolean goodInput = false;
+		int lines = 0;
+		Scanner scan = new Scanner(System.in);
+		boolean goodInput = false;
 			 
 // We loop until the user inputs an integer whose value is between 20 and 50, inclusive. We use a boolean variable, 
 // "goodInput", to monitor the validity of the value entered by the user. As long as goodInput is false, we keep 
@@ -21,17 +21,18 @@ import java.util.*;
 // invalid user input again at the next iteration of the loop. If the user enters an integer, we test that the value 
 // is between 20 and 50. If the input is valid, we change goodInput to true and exit the loop.
 			 
-			 do {
-				 try {	
-					 // prompt for input; expect value is an int
+		do {
+			try {	
+				// prompt for input; expect value is an int
 					 
-					 System.out.println("Enter a number of lines (20 to 50" + "to append >");
-					 lines = scan.nextInt();
-					 if(lines >= 20 && lines <=50) {
-						 goodInput = true;
+				System.out.println("Enter a number of lines (20 to 50" + "to append >");
+				lines = scan.nextInt();
+				if(lines >= 20 && lines <=50) {
+					goodInput = true;
 					 }
 				 }
-					// consume invalid data left in input stream
+			
+				// consume invalid data left in input stream
 				 
 					 catch(InputMismatchException ime) {
 						 String garbage = scan.nextLine();
@@ -71,4 +72,3 @@ import java.util.*;
 					 
 			 }		 
 			 }
-			 
