@@ -1,9 +1,7 @@
 // Predicate testing whether a String starts with a 'B'
 // The Predicate interface has only ONE abstract method, test.
 
-
 import java.util.function.*;
-
 
 public class StartWithBPredicate<T> implements Predicate<T> {
 	
