@@ -7,5 +7,4 @@ public class IllegalEmailException extends Exception {
 		
 		super(message);
 	}
-
 }
