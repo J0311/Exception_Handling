@@ -57,4 +57,3 @@ public class Using_Scanner_To_Parse_String {
 // exit the while loop.
 	}
 }
-
