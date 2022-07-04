@@ -38,7 +38,6 @@ public class EchoFileData {
 				int number = file.nextInt();
 				System.out.println(number);
 			}
-			
 		}
 		
 // Here we use a catch block to handle the exception if it occurs. Note that there are other exceptions that can be thrown
