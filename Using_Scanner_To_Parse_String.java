@@ -46,6 +46,7 @@ public class Using_Scanner_To_Parse_String {
 			ise.printStackTrace();
 		}
 		
+		
 // If we want to process all the tokens as Strings with a loop construct, we can call the hasNext method 
 // to check if there are more tokens to process as in the following:
 
